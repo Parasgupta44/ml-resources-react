@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Andrew NG's Coursera Course",
+    "description": "One of the best courses to get started with Machine Learning.",
+    "link": "https://www.coursera.org/learn/machine-learning"
+  },
+  {
+    "id": 2,
+    "title": "Sentdex's YT Playlist",
+    "description": "Get started with ML using Python.",
+    "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
+  }
+]
