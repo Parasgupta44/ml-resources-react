@@ -11,4 +11,11 @@
     "description": "Get started with ML using Python.",
     "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
   }
+  
+  {
+    "id": 3,
+    "title": "Stanford CS229: Machine Learning | Autumn 2018",
+    "description": "Stanford University Lectures on Machine Learning Introductory Course.",
+    "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+  }
 ]
