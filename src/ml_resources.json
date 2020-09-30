@@ -34,6 +34,12 @@
     "title": "Machine learning with Python Certification",
     "description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
     "link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
-  }
+  },
+  {
+  "id": 7,
+  "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
+  "description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
+  "link": "https://drive.google.com/file/d/15o_ZIuf9x9oG7hgIJGP4rmJ92GJIcsP_/view"
+}
   
 ]
