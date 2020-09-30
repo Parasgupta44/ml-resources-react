@@ -111,5 +111,11 @@
 		"title": "Machine Learning Crash Course with TensorFlow APIs",
 		"description": "Google's fast-paced, practical introduction to machine learning",
 		"link": "https://developers.google.com/machine-learning/crash-course"
+	},
+	{
+		"id": 20,
+		"title": "Deeplearning Book",
+		"description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning.",
+		"link": "http://www.deeplearningbook.org/"
 	}
 ]
