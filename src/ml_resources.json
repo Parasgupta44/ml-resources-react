@@ -40,6 +40,18 @@
   "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
   "description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
   "link": "https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"
-}
+	},
+  {
+  "id": 20,
+  "title": "Machine Learning Playlist by mathematicalmonk",
+  "description": "The video series provides a great insight into Machine Learning with in-depth videos covering most of the ML algorithms",
+  "link": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA"
+	},
+  {
+  "id": 21,
+  "title": "Reinforcement Learning course by David Silver",
+  "description": "Hands on video lectures on Reinforcement Learning by David Silver",
+  "link": "https://www.davidsilver.uk/teaching/"
+	}
   
 ]
