@@ -19,9 +19,15 @@
   },
   {
     "id": 4,
-    "title": "3Blue1Brown neural network",
+    "title": "3Blue1Brown Neural Network playlist",
     "description": "Basic overview of neural networks",
     "link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+  },
+  {
+    "id": 5,
+    "title": "Instill-AI's ML Course",
+    "description": "A github repo with ML explanation with code examples",
+    "link": "https://github.com/instillai/machine-learning-course"
   }
   
 ]
