@@ -99,5 +99,11 @@
 		"title": "Reinforcement Learning course by David Silver",
 		"description": "Hands on video lectures on Reinforcement Learning by David Silver",
 		"link": "https://www.davidsilver.uk/teaching/"
+	},
+	{
+		"id": 18,
+		"title": "Introduction to Machine Learning Course by Sebastian Thrun",
+		"description": "This free course by Udacity will teach you the end-to-end process of investigating data through a machine learning lens.",
+		"link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
 	}
 ]
