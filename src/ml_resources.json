@@ -40,6 +40,12 @@
   "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
   "description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
   "link": "https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"
+},
+  {
+  "id": 8,
+  "title": "Introduction to Machine Learning Course by Sebastian Thrun",
+  "description": "This free course by Udacity will teach you the end-to-end process of investigating data through a machine learning lens.",
+  "link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
 }
   
 ]
