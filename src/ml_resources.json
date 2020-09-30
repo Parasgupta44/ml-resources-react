@@ -1,63 +1,91 @@
-[
-  {
-    "id": 1,
-    "title": "Andrew NG's Coursera Course",
-    "description": "One of the best courses to get started with Machine Learning.",
-    "link": "https://www.coursera.org/learn/machine-learning"
-  },
-  {
-    "id": 2,
-    "title": "Sentdex's YT Playlist",
-    "description": "Get started with ML using Python.",
-    "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
-  },
-  {
-    "id": 3,
-    "title": "Stanford CS229: Machine Learning | Autumn 2018",
-    "description": "Stanford University Lectures on Machine Learning Introductory Course.",
-    "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
-  },
-  {
-    "id": 4,
-    "title": "3Blue1Brown Neural Network playlist",
-    "description": "Basic overview of neural networks",
-    "link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
-  },
-  {
-    "id": 5,
-    "title": "Instill-AI's ML Course",
-    "description": "A github repo with ML explanation with code examples",
-    "link": "https://github.com/instillai/machine-learning-course"
-  },
-  {
-    "id": 6,
-    "title": "The Data School Blog ",
-    "description": "Data science for beginners!",
-    "link": "http://www.dataschool.io/"
-  },
-  {
-    "id": 7,
-    "title": "ML Wave",
-    "description": "A blog for Learning Machine Learning",
-    "link": "http://mlwave.com/"
-  },
-  {
-    "id": 8,
-    "title": "Andrej Karpathy",
-    "description": " A blog about Deep Learning and Data Science in general",
-    "link": "http://karpathy.github.io/"
-  },
-  {
-    "id": 9,
-    "title": "Edwin Chen's Blog",
-    "description": "A blog about Math, stats, ML, crowdsourcing, data science",
-    "link": "http://blog.echen.me/"
-  },
-  {
-    "id": 10,
-    "title": "no free hunch | kaggle",
-    "description": "The Kaggle Blog about all things Data Science",
-    "link": "http://blog.kaggle.com/"
-  }
-  
+[{
+		"id": 1,
+		"title": "Andrew NG's Coursera Course",
+		"description": "One of the best courses to get started with Machine Learning.",
+		"link": "https://www.coursera.org/learn/machine-learning"
+	},
+	{
+		"id": 2,
+		"title": "Sentdex's YT Playlist",
+		"description": "Get started with ML using Python.",
+		"link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
+	},
+	{
+		"id": 3,
+		"title": "Stanford CS229: Machine Learning | Autumn 2018",
+		"description": "Stanford University Lectures on Machine Learning Introductory Course.",
+		"link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+	},
+	{
+		"id": 4,
+		"title": "3Blue1Brown Neural Network playlist",
+		"description": "Basic overview of neural networks",
+		"link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+	},
+	{
+		"id": 5,
+		"title": "Instill-AI's ML Course",
+		"description": "A github repo with ML explanation with code examples",
+		"link": "https://github.com/instillai/machine-learning-course"
+	},
+	{
+		"id": 6,
+		"title": "Machine learning with Python Certification",
+		"description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
+		"link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
+	},
+	{
+		"id": 7,
+		"title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
+		"description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
+		"link": "https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"
+	},
+	{
+		"id": 8,
+		"title": "Machine learning with Python",
+		"description": "Learn Machine Learning with this free curriculum complete with concise yet rigorous and hands-on Python tutorials by Springboard",
+		"link": "https://www.springboard.com/resources/learning-paths/machine-learning-python/"
+	},
+	{
+		"id": 9,
+		"title": "Machine Learning Crash Course",
+		"description": "Google's fast-paced, practical introduction to machine learning.A self-study guide for aspiring machine learning practitioners.",
+		"link": "https://developers.google.com/machine-learning/crash-course/"
+	},
+	{
+		"id": 10,
+		"title": "Machine Learning Tutorial for Beginners",
+		"description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
+		"link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
+	},
+	{
+		"id": 11,
+		"title": "The Data School Blog ",
+		"description": "Data science for beginners!",
+		"link": "http://www.dataschool.io/"
+	},
+	{
+		"id": 12,
+		"title": "ML Wave",
+		"description": "A blog for Learning Machine Learning",
+		"link": "http://mlwave.com/"
+	},
+	{
+		"id": 13,
+		"title": "Andrej Karpathy",
+		"description": " A blog about Deep Learning and Data Science in general",
+		"link": "http://karpathy.github.io/"
+	},
+	{
+		"id": 14,
+		"title": "Edwin Chen's Blog",
+		"description": "A blog about Math, stats, ML, crowdsourcing, data science",
+		"link": "http://blog.echen.me/"
+	},
+	{
+		"id": 15,
+		"title": "no free hunch | kaggle",
+		"description": "The Kaggle Blog about all things Data Science",
+		"link": "http://blog.kaggle.com/"
+	}
 ]
