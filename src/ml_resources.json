@@ -57,5 +57,35 @@
 		"title": "Machine Learning Tutorial for Beginners",
 		"description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
 		"link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
+	},
+	{
+		"id": 11,
+		"title": "The Data School Blog ",
+		"description": "Data science for beginners!",
+		"link": "http://www.dataschool.io/"
+	},
+	{
+		"id": 12,
+		"title": "ML Wave",
+		"description": "A blog for Learning Machine Learning",
+		"link": "http://mlwave.com/"
+	},
+	{
+		"id": 13,
+		"title": "Andrej Karpathy",
+		"description": " A blog about Deep Learning and Data Science in general",
+		"link": "http://karpathy.github.io/"
+	},
+	{
+		"id": 14,
+		"title": "Edwin Chen's Blog",
+		"description": "A blog about Math, stats, ML, crowdsourcing, data science",
+		"link": "http://blog.echen.me/"
+	},
+	{
+		"id": 15,
+		"title": "no free hunch | kaggle",
+		"description": "The Kaggle Blog about all things Data Science",
+		"link": "http://blog.kaggle.com/"
 	}
 ]
