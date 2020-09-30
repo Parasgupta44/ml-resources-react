@@ -34,6 +34,25 @@
     "title": "Machine learning with Python Certification",
     "description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
     "link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
+  },
+  {
+    "id": 7,
+    "title": "Machine learning with Python",
+    "description": "Learn Machine Learning with this free curriculum complete with concise yet rigorous and hands-on Python tutorials by Springboard",
+    "link": "https://www.springboard.com/resources/learning-paths/machine-learning-python/"
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Crash Course",
+    "description": "Google's fast-paced, practical introduction to machine learning.A self-study guide for aspiring machine learning practitioners.",
+    "link": "https://developers.google.com/machine-learning/crash-course/"
+  },
+  {
+    "id": 9,
+    "title": "Machine Learning Tutorial for Beginners",
+    "description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
+    "link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
   }
+
   
 ]
