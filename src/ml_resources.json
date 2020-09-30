@@ -87,5 +87,17 @@
 		"title": "no free hunch | kaggle",
 		"description": "The Kaggle Blog about all things Data Science",
 		"link": "http://blog.kaggle.com/"
+	},
+	{
+		"id": 16,
+		"title": "Machine Learning Playlist by mathematicalmonk",
+		"description": "The video series provides a great insight into Machine Learning with in-depth videos covering most of the ML algorithms",
+		"link": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA"
+	},
+	{
+		"id": 17,
+		"title": "Reinforcement Learning course by David Silver",
+		"description": "Hands on video lectures on Reinforcement Learning by David Silver",
+		"link": "https://www.davidsilver.uk/teaching/"
 	}
 ]
