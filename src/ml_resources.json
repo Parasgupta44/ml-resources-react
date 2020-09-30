@@ -28,6 +28,36 @@
     "title": "Instill-AI's ML Course",
     "description": "A github repo with ML explanation with code examples",
     "link": "https://github.com/instillai/machine-learning-course"
+  },
+  {
+    "id": 6,
+    "title": "The Data School Blog ",
+    "description": "Data science for beginners!",
+    "link": "http://www.dataschool.io/"
+  },
+  {
+    "id": 7,
+    "title": "ML Wave",
+    "description": "A blog for Learning Machine Learning",
+    "link": "http://mlwave.com/"
+  },
+  {
+    "id": 8,
+    "title": "Andrej Karpathy",
+    "description": " A blog about Deep Learning and Data Science in general",
+    "link": "http://karpathy.github.io/"
+  },
+  {
+    "id": 9,
+    "title": "Edwin Chen's Blog",
+    "description": "A blog about Math, stats, ML, crowdsourcing, data science",
+    "link": "http://blog.echen.me/"
+  },
+  {
+    "id": 10,
+    "title": "no free hunch | kaggle",
+    "description": "The Kaggle Blog about all things Data Science",
+    "link": "http://blog.kaggle.com/"
   }
   
 ]
