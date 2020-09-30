@@ -105,5 +105,11 @@
 		"title": "Introduction to Machine Learning Course by Sebastian Thrun",
 		"description": "This free course by Udacity will teach you the end-to-end process of investigating data through a machine learning lens.",
 		"link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+	},
+	{
+		"id": 19,
+		"title": "Machine Learning Crash Course with TensorFlow APIs",
+		"description": "Google's fast-paced, practical introduction to machine learning",
+		"link": "https://developers.google.com/machine-learning/crash-course"
 	}
 ]
