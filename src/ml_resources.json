@@ -16,5 +16,12 @@
     "title": "Stanford CS229: Machine Learning | Autumn 2018",
     "description": "Stanford University Lectures on Machine Learning Introductory Course.",
     "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+  },
+  {
+    "id": 4,
+    "title": "3Blue1Brown neural network",
+    "description": "Basic overview of neural networks",
+    "link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
   }
+  
 ]
