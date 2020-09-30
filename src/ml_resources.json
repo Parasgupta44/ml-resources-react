@@ -29,11 +29,17 @@
     "description": "A github repo with ML explanation with code examples",
     "link": "https://github.com/instillai/machine-learning-course"
   },
-    {
+  {
     "id": 6,
     "title": "Machine learning with Python Certification",
     "description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
     "link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Crash Course with TensorFlow APIs",
+    "description": "Google's fast-paced, practical introduction to machine learning",
+    "link": "https://developers.google.com/machine-learning/crash-course"
   }
   
 ]
