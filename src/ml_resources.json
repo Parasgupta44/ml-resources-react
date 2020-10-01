@@ -111,5 +111,11 @@
 		"title": "Machine Learning Crash Course with TensorFlow APIs",
 		"description": "Google's fast-paced, practical introduction to machine learning",
 		"link": "https://developers.google.com/machine-learning/crash-course"
+	},
+	{
+		"id": 20,
+		"title" : "Machine Learning By Edureka",
+		"description" : "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
+		"link" : "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
 	}
 ]
