@@ -183,5 +183,11 @@
 		"title": "Azure Machine Learning",
 		"description": "Enterprise-grade machine learning service to build and deploy models faster",
 		"link": "https://azure.microsoft.com/nb-no/services/machine-learning/"
+	},
+	{
+		"id": 32,
+		"title": "freeCodeCamp.org's Machine Learning playlist",
+		"description": "A great place to learn concepts of Machine Learning & Deep Learning like natural language processing, neural networks, reinforcement learning etc.",
+		"link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s"
 	}
 ]
