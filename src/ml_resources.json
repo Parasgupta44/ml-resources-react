@@ -111,5 +111,17 @@
 		"title": "Machine Learning Crash Course with TensorFlow APIs",
 		"description": "Google's fast-paced, practical introduction to machine learning",
 		"link": "https://developers.google.com/machine-learning/crash-course"
+	},
+	{
+		"id": 20,
+		"title": "CS50's Introduction to Artificial Intelligence with Python",
+		"description": "This course will be your Introduction to Artificial Intelligence with Python by exploring the concepts and algorithms at the foundation of modern artificial intelligence,etc.",
+		"link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+	},
+	{
+		"id": 21,
+		"title": "Introduction to Computational Thinking and Data Science",
+		"description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
+		"link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
 	}
 ]
