@@ -113,7 +113,67 @@
 		"link": "https://developers.google.com/machine-learning/crash-course"
 	},
 	{
-		"id": 20,
+		"id": "20",
+		"title": "Deeplearning Book",
+		"description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning.",
+		"link": "http://www.deeplearningbook.org/"
+	},
+	{
+		"id": 21,
+		"title": "OpenCV and Machine Learning Book",
+		"description": "The is book provides a working guide to the Open Source Computer Vision Library(OpenCV) and also provides a general background to the field of computer vision sufficient to use OpenCV in machine learning",
+		"link": "http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf"
+	},
+	{
+		"id": 22,
+		"title": "Your First Machine Learning Project in Python Step-By-Step",
+		"description": "Do you want to do machine learning using Python, but you’re having trouble getting started? In this post, you will complete your first machine learning project using Python.",
+		"link": "https://machinelearningmastery.com/machine-learning-in-python-step-by-step/"
+	},
+	{
+		"id": 23,
+		"title": "CS50's Introduction to Artificial Intelligence with Python",
+		"description": "This course will be your Introduction to Artificial Intelligence with Python by exploring the concepts and algorithms at the foundation of modern artificial intelligence,etc.",
+		"link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+	},
+	{
+		"id": 24,
+		"title": "Introduction to Computational Thinking and Data Science",
+		"description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
+		"link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
+	},
+	{
+		"id": 25,
+		"title": "Machine Learning By Edureka",
+		"description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
+		"link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
+	},
+	{
+		"id": 26,
+		"title": "Eat Tensorflow 2 in 30 days",
+		"description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
+		"link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
+	},
+	{
+		"id": 27,
+		"title": "Scikit-Learn Course - Machine Learning in Python Tutorial(Free course on Youtube)",
+		"description": "Scikit-learn is a free software machine learning library for the Python programming language. Learn about machine learning using scikit-learn in this full course.",
+		"link": "https://www.youtube.com/watch?v=pqNCD_5r0IU"
+	},
+	{
+		"id": 28,
+		"title": "Reinforcement Learning Course - Full Machine Learning Tutorial(Free)",
+		"description": "Reinforcement learning is an area of machine learning that involves taking right action to maximize reward in a particular situation. In this full tutorial course, you will get a solid foundation in reinforcement learning core topics.",
+		"link": "https://www.youtube.com/watch?v=ELE2_Mftqoc"
+	},
+	{
+		"id": 29,
+		"title": "Machine Learning with Python by SimpliLearn (Free)",
+		"description": "This full course on Machine Learning with Python will be taught by Dr Abhinanda Sarkar. Dr Sarkar is the Academic Director at Great Learning for Data Science and Machine Learning Programs. He is ranked amongst the Top 3 Most Prominent Analytics & Data Science Academicians in India.",
+		"link": "https://www.youtube.com/watch?v=RnFGwxJwx-0"
+	},
+	{
+		"id": 30,
 		"title": "MIT 6.S191 Deep Learning YouTube playlist",
 		"description": "Course lectures for MIT introduction to Deep Learning",
 		"link": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI"
