@@ -147,5 +147,11 @@
 		"title": "Machine Learning By Edureka",
 		"description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
 		"link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
+	},
+	{
+		"id": 26,
+		"title": "eat_tensorflow2_in_30_days",
+		"description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
+		"link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
 	}
 ]
