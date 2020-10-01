@@ -21,16 +21,20 @@ const Display = () => {
   }
   return (
     <div>
-      <h1>
-        <span>ML Resources</span>
-      </h1>
-      <div className="search">
-      <input
-            type="text"
-            placeholder="search"
-            value={search}
-            onChange={(event,value) => setSearch(event.target.value)}
-         />
+      <div className="json head-title">
+          <div>
+            <h1>
+              <span>ML Resources</span>
+            </h1>
+          </div>
+          <div className="search">
+          <input
+                type="text"
+                placeholder="Search..."
+                value={search}
+                onChange={(event,value) => setSearch(event.target.value)}
+            />
+          </div>
       </div>
       <dl className="json">
 
