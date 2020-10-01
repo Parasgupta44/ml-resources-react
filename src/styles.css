@@ -126,3 +126,15 @@ dd dl {
 dd dl .bxstyle {
   margin-bottom: 1.1rem;
 }
+.search{
+  text-align: center;
+  
+}
+input{
+  border: none;
+  height: 50px;
+  color: white;
+  background-color:rgba(0, 0, 0, 0);
+  border-bottom: 2px solid white;
+  font-size: 18px;
+}
