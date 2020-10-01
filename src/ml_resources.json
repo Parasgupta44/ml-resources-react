@@ -111,5 +111,11 @@
 		"title": "Machine Learning Crash Course with TensorFlow APIs",
 		"description": "Google's fast-paced, practical introduction to machine learning",
 		"link": "https://developers.google.com/machine-learning/crash-course"
+	},
+	{
+		"id": 20,
+		"title": "eat_tensorflow2_in_30_days",
+		"description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
+		"link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
 	}
 ]
