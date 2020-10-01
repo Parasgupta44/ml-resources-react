@@ -112,12 +112,10 @@ dd dl .bxstyle {
   
 }
 input{
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding-left: 45px;
-  border: none; 
-  height: 50px; 
-  background-color: #ffefd5;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  background-image: url('output-onlinepngtools.png');
+  border: none;
+  height: 50px;
+  color: white;
+  background-color:rgba(0, 0, 0, 0);
+  border-bottom: 2px solid white;
+  font-size: 18px;
 }
