@@ -141,5 +141,11 @@
 		"title": "Introduction to Computational Thinking and Data Science",
 		"description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
 		"link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
+	},
+	{
+		"id": 25,
+		"title": "Machine Learning By Edureka",
+		"description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
+		"link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
 	}
 ]
