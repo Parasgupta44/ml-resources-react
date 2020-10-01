@@ -7,7 +7,9 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-sticky-mouse-tooltip": "0.0.1",
+    "react-tiny-link": "^3.6.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"
