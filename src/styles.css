@@ -92,3 +92,17 @@ dd dl {
 dd dl .bxstyle {
   margin-bottom: 1.1rem;
 }
+.search{
+  text-align: center;
+  
+}
+input{
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 45px;
+  border: none; 
+  height: 50px; 
+  background-color: #ffefd5;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-image: url('output-onlinepngtools.png');
+}
