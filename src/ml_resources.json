@@ -1,181 +1,230 @@
-[{
-		"id": 1,
-		"title": "Andrew NG's Coursera Course",
-		"description": "One of the best courses to get started with Machine Learning.",
-		"link": "https://www.coursera.org/learn/machine-learning"
-	},
-	{
-		"id": 2,
-		"title": "Sentdex's YT Playlist",
-		"description": "Get started with ML using Python.",
-		"link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
-	},
-	{
-		"id": 3,
-		"title": "Stanford CS229: Machine Learning | Autumn 2018",
-		"description": "Stanford University Lectures on Machine Learning Introductory Course.",
-		"link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
-	},
-	{
-		"id": 4,
-		"title": "3Blue1Brown Neural Network playlist",
-		"description": "Basic overview of neural networks",
-		"link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
-	},
-	{
-		"id": 5,
-		"title": "Instill-AI's ML Course",
-		"description": "A github repo with ML explanation with code examples",
-		"link": "https://github.com/instillai/machine-learning-course"
-	},
-	{
-		"id": 6,
-		"title": "Machine learning with Python Certification",
-		"description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
-		"link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
-	},
-	{
-		"id": 7,
-		"title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
-		"description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
-		"link": "https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"
-	},
-	{
-		"id": 8,
-		"title": "Machine learning with Python",
-		"description": "Learn Machine Learning with this free curriculum complete with concise yet rigorous and hands-on Python tutorials by Springboard",
-		"link": "https://www.springboard.com/resources/learning-paths/machine-learning-python/"
-	},
-	{
-		"id": 9,
-		"title": "Machine Learning Crash Course",
-		"description": "Google's fast-paced, practical introduction to machine learning.A self-study guide for aspiring machine learning practitioners.",
-		"link": "https://developers.google.com/machine-learning/crash-course/"
-	},
-	{
-		"id": 10,
-		"title": "Machine Learning Tutorial for Beginners",
-		"description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
-		"link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
-	},
-	{
-		"id": 11,
-		"title": "The Data School Blog ",
-		"description": "Data science for beginners!",
-		"link": "http://www.dataschool.io/"
-	},
-	{
-		"id": 12,
-		"title": "ML Wave",
-		"description": "A blog for Learning Machine Learning",
-		"link": "http://mlwave.com/"
-	},
-	{
-		"id": 13,
-		"title": "Andrej Karpathy",
-		"description": " A blog about Deep Learning and Data Science in general",
-		"link": "http://karpathy.github.io/"
-	},
-	{
-		"id": 14,
-		"title": "Edwin Chen's Blog",
-		"description": "A blog about Math, stats, ML, crowdsourcing, data science",
-		"link": "http://blog.echen.me/"
-	},
-	{
-		"id": 15,
-		"title": "no free hunch | kaggle",
-		"description": "The Kaggle Blog about all things Data Science",
-		"link": "http://blog.kaggle.com/"
-	},
-	{
-		"id": 16,
-		"title": "Machine Learning Playlist by mathematicalmonk",
-		"description": "The video series provides a great insight into Machine Learning with in-depth videos covering most of the ML algorithms",
-		"link": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA"
-	},
-	{
-		"id": 17,
-		"title": "Reinforcement Learning course by David Silver",
-		"description": "Hands on video lectures on Reinforcement Learning by David Silver",
-		"link": "https://www.davidsilver.uk/teaching/"
-	},
-	{
-		"id": 18,
-		"title": "Introduction to Machine Learning Course by Sebastian Thrun",
-		"description": "This free course by Udacity will teach you the end-to-end process of investigating data through a machine learning lens.",
-		"link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
-	},
-	{
-		"id": 19,
-		"title": "Machine Learning Crash Course with TensorFlow APIs",
-		"description": "Google's fast-paced, practical introduction to machine learning",
-		"link": "https://developers.google.com/machine-learning/crash-course"
-	},
-	{
-		"id": "20",
-		"title": "Deeplearning Book",
-		"description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning.",
-		"link": "http://www.deeplearningbook.org/"
-	},
-	{
-		"id": 21,
-		"title": "OpenCV and Machine Learning Book",
-		"description": "The is book provides a working guide to the Open Source Computer Vision Library(OpenCV) and also provides a general background to the field of computer vision sufficient to use OpenCV in machine learning",
-		"link": "http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf"
-	},
-	{
-		"id": 22,
-		"title": "Your First Machine Learning Project in Python Step-By-Step",
-		"description": "Do you want to do machine learning using Python, but you’re having trouble getting started? In this post, you will complete your first machine learning project using Python.",
-		"link": "https://machinelearningmastery.com/machine-learning-in-python-step-by-step/"
-	},
-	{
-		"id": 23,
-		"title": "CS50's Introduction to Artificial Intelligence with Python",
-		"description": "This course will be your Introduction to Artificial Intelligence with Python by exploring the concepts and algorithms at the foundation of modern artificial intelligence,etc.",
-		"link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
-	},
-	{
-		"id": 24,
-		"title": "Introduction to Computational Thinking and Data Science",
-		"description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
-		"link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
-	},
-	{
-		"id": 25,
-		"title": "Machine Learning By Edureka",
-		"description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
-		"link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
-	},
-	{
-		"id": 26,
-		"title": "Eat Tensorflow 2 in 30 days",
-		"description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
-		"link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
-	},
-	{
-		"id": 27,
-		"title": "Scikit-Learn Course - Machine Learning in Python Tutorial(Free course on Youtube)",
-		"description": "Scikit-learn is a free software machine learning library for the Python programming language. Learn about machine learning using scikit-learn in this full course.",
-		"link": "https://www.youtube.com/watch?v=pqNCD_5r0IU"
-	},
-	{
-		"id": 28,
-		"title": "Reinforcement Learning Course - Full Machine Learning Tutorial(Free)",
-		"description": "Reinforcement learning is an area of machine learning that involves taking right action to maximize reward in a particular situation. In this full tutorial course, you will get a solid foundation in reinforcement learning core topics.",
-		"link": "https://www.youtube.com/watch?v=ELE2_Mftqoc"
-	},
-	{
-		"id": 29,
-		"title": "Machine Learning with Python by SimpliLearn (Free)",
-		"description": "This full course on Machine Learning with Python will be taught by Dr Abhinanda Sarkar. Dr Sarkar is the Academic Director at Great Learning for Data Science and Machine Learning Programs. He is ranked amongst the Top 3 Most Prominent Analytics & Data Science Academicians in India.",
-		"link": "https://www.youtube.com/watch?v=RnFGwxJwx-0"
-	},
-	{
-		"id": 30,
-		"title": "MIT 6.S191 Deep Learning YouTube playlist",
-		"description": "Course lectures for MIT introduction to Deep Learning",
-		"link": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI"
-	}
+[
+  {
+    "id": 1,
+    "title": "Andrew NG's Coursera Course",
+    "description": "One of the best courses to get started with Machine Learning.",
+    "link": "https://www.coursera.org/learn/machine-learning"
+  },
+  {
+    "id": 2,
+    "title": "Sentdex's YT Playlist",
+    "description": "Get started with ML using Python.",
+    "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
+  },
+  {
+    "id": 3,
+    "title": "Stanford CS229: Machine Learning | Autumn 2018",
+    "description": "Stanford University Lectures on Machine Learning Introductory Course.",
+    "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+  },
+  {
+    "id": 4,
+    "title": "3Blue1Brown Neural Network playlist",
+    "description": "Basic overview of neural networks",
+    "link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+  },
+  {
+    "id": 5,
+    "title": "Instill-AI's ML Course",
+    "description": "A github repo with ML explanation with code examples",
+    "link": "https://github.com/instillai/machine-learning-course"
+  },
+  {
+    "id": 6,
+    "title": "Machine learning with Python Certification",
+    "description": "Interactive ML course by Tim Ruscia on FreeCodeCamp",
+    "link": "https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/"
+  },
+  {
+    "id": 7,
+    "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron",
+    "description": "This book covers almost everything from scratch and has code snippets to help you apply ML concepts",
+    "link": "https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"
+  },
+  {
+    "id": 8,
+    "title": "Machine learning with Python",
+    "description": "Learn Machine Learning with this free curriculum complete with concise yet rigorous and hands-on Python tutorials by Springboard",
+    "link": "https://www.springboard.com/resources/learning-paths/machine-learning-python/"
+  },
+  {
+    "id": 9,
+    "title": "Machine Learning Crash Course",
+    "description": "Google's fast-paced, practical introduction to machine learning.A self-study guide for aspiring machine learning practitioners.",
+    "link": "https://developers.google.com/machine-learning/crash-course/"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Tutorial for Beginners",
+    "description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
+    "link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
+  },
+  {
+    "id": 11,
+    "title": "The Data School Blog ",
+    "description": "Data science for beginners!",
+    "link": "http://www.dataschool.io/"
+  },
+  {
+    "id": 12,
+    "title": "ML Wave",
+    "description": "A blog for Learning Machine Learning",
+    "link": "http://mlwave.com/"
+  },
+  {
+    "id": 13,
+    "title": "Andrej Karpathy",
+    "description": " A blog about Deep Learning and Data Science in general",
+    "link": "http://karpathy.github.io/"
+  },
+  {
+    "id": 14,
+    "title": "Edwin Chen's Blog",
+    "description": "A blog about Math, stats, ML, crowdsourcing, data science",
+    "link": "http://blog.echen.me/"
+  },
+  {
+    "id": 15,
+    "title": "no free hunch | kaggle",
+    "description": "The Kaggle Blog about all things Data Science",
+    "link": "http://blog.kaggle.com/"
+  },
+  {
+    "id": 16,
+    "title": "Machine Learning Playlist by mathematicalmonk",
+    "description": "The video series provides a great insight into Machine Learning with in-depth videos covering most of the ML algorithms",
+    "link": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA"
+  },
+  {
+    "id": 17,
+    "title": "Reinforcement Learning course by David Silver",
+    "description": "Hands on video lectures on Reinforcement Learning by David Silver",
+    "link": "https://www.davidsilver.uk/teaching/"
+  },
+  {
+    "id": 18,
+    "title": "Introduction to Machine Learning Course by Sebastian Thrun",
+    "description": "This free course by Udacity will teach you the end-to-end process of investigating data through a machine learning lens.",
+    "link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+  },
+  {
+    "id": 19,
+    "title": "Machine Learning Crash Course with TensorFlow APIs",
+    "description": "Google's fast-paced, practical introduction to machine learning",
+    "link": "https://developers.google.com/machine-learning/crash-course"
+  },
+  {
+    "id": "20",
+    "title": "Deeplearning Book",
+    "description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning.",
+    "link": "http://www.deeplearningbook.org/"
+  },
+  {
+    "id": 21,
+    "title": "OpenCV and Machine Learning Book",
+    "description": "The is book provides a working guide to the Open Source Computer Vision Library(OpenCV) and also provides a general background to the field of computer vision sufficient to use OpenCV in machine learning",
+    "link": "http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf"
+  },
+  {
+    "id": 22,
+    "title": "Your First Machine Learning Project in Python Step-By-Step",
+    "description": "Do you want to do machine learning using Python, but you’re having trouble getting started? In this post, you will complete your first machine learning project using Python.",
+    "link": "https://machinelearningmastery.com/machine-learning-in-python-step-by-step/"
+  },
+  {
+    "id": 23,
+    "title": "CS50's Introduction to Artificial Intelligence with Python",
+    "description": "This course will be your Introduction to Artificial Intelligence with Python by exploring the concepts and algorithms at the foundation of modern artificial intelligence,etc.",
+    "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+  },
+  {
+    "id": 24,
+    "title": "Introduction to Computational Thinking and Data Science",
+    "description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
+    "link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
+  },
+  {
+    "id": 25,
+    "title": "Machine Learning By Edureka",
+    "description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
+    "link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
+  },
+  {
+    "id": 26,
+    "title": "Eat Tensorflow 2 in 30 days",
+    "description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
+    "link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
+  },
+  {
+    "id": 27,
+    "title": "Scikit-Learn Course - Machine Learning in Python Tutorial(Free course on Youtube)",
+    "description": "Scikit-learn is a free software machine learning library for the Python programming language. Learn about machine learning using scikit-learn in this full course.",
+    "link": "https://www.youtube.com/watch?v=pqNCD_5r0IU"
+  },
+  {
+    "id": 28,
+    "title": "Reinforcement Learning Course - Full Machine Learning Tutorial(Free)",
+    "description": "Reinforcement learning is an area of machine learning that involves taking right action to maximize reward in a particular situation. In this full tutorial course, you will get a solid foundation in reinforcement learning core topics.",
+    "link": "https://www.youtube.com/watch?v=ELE2_Mftqoc"
+  },
+  {
+    "id": 29,
+    "title": "Machine Learning with Python by SimpliLearn (Free)",
+    "description": "This full course on Machine Learning with Python will be taught by Dr Abhinanda Sarkar. Dr Sarkar is the Academic Director at Great Learning for Data Science and Machine Learning Programs. He is ranked amongst the Top 3 Most Prominent Analytics & Data Science Academicians in India.",
+    "link": "https://www.youtube.com/watch?v=RnFGwxJwx-0"
+  },
+  {
+    "id": 30,
+    "title": "MIT 6.S191 Deep Learning YouTube playlist",
+    "description": "Course lectures for MIT introduction to Deep Learning",
+    "link": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI"
+  },
+  {
+    "id": 31,
+    "title": "Azure Machine Learning",
+    "description": "Enterprise-grade machine learning service to build and deploy models faster",
+    "link": "https://azure.microsoft.com/nb-no/services/machine-learning/"
+  },
+  {
+    "id": 32,
+    "title": "freeCodeCamp.org's Machine Learning playlist",
+    "description": "A great place to learn concepts of Machine Learning & Deep Learning like natural language processing, neural networks, reinforcement learning etc.",
+    "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s"
+  },
+  {
+    "id": 33,
+    "title": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+    "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+    "link": "https://www.udemy.com/course/machinelearning/"
+  },
+  {
+    "id": 34,
+    "title": "Python for Data Science and Machine Learning Bootcamp",
+    "description": "Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+    "link": "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/"
+  },
+  {
+    "id": 35,
+    "title": "Bayesian Machine Learning in Python: A/B Testing",
+    "description": "Data Science, Machine Learning, and Data Analytics Techniques for Marketing, Digital Media, Online Advertising, and More",
+    "link": "https://www.udemy.com/course/bayesian-machine-learning-in-python-ab-testing/"
+  },
+  {
+    "id": 36,
+    "title": "Data Science, Machine Learning, Data Analysis, Python & R(Free)",
+    "description": "FREE Course on Data Science, Machine Learning, Data Analysis, Data Visualization using Python and R Programming",
+    "link": "https://www.udemy.com/course/data-science-machine-learning-data-analysis-python-r/"
+  },
+  {
+    "id": 37,
+    "title": "Deep Learning A-Z™: Hands-On Artificial Neural Networks",
+    "description": "Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included.",
+    "link": "https://www.udemy.com/course/deeplearning/"
+  },
+  {
+    "id": 38,
+    "title": "Complete Guide to TensorFlow for Deep Learning with Python",
+    "description": "Learn how to use Google's Deep Learning Framework - TensorFlow with Python! Solve problems with cutting edge techniques!",
+    "link": "https://www.udemy.com/course/complete-guide-to-tensorflow-for-deep-learning-with-python/"
+  }
 ]

@@ -2,6 +2,9 @@
 
 A very simple React app displaying various Machine Learning resources to learn from.
 
+![GitHub forks](https://img.shields.io/github/forks/Parasgupta44/ml-resources-react?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/Parasgupta44/ml-resources-react?style=plastic)
+
 ## Purpose
 
 Setting this repository to collect some resources for ML as well as to get people started with Hacktoberfest!!
