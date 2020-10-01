@@ -6,7 +6,7 @@ A very simple React app displaying various Machine Learning resources to learn f
 
 Setting this repository to collect some resources for ML as well as to get people started with Hacktoberfest!!
 
-## Link ot the Site
+## Link to the Site
 
 [Go to the site.](https://sharp-gates-258dae.netlify.app/)
 
