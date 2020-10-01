@@ -113,9 +113,39 @@
 		"link": "https://developers.google.com/machine-learning/crash-course"
 	},
 	{
-		"id": 20,
-		"title" : "Machine Learning By Edureka",
-		"description" : "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
-		"link" : "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
+		"id": "20",
+		"title": "Deeplearning Book",
+		"description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning.",
+		"link": "http://www.deeplearningbook.org/"
+	},
+	{
+		"id": 21,
+		"title": "OpenCV and Machine Learning Book",
+		"description": "The is book provides a working guide to the Open Source Computer Vision Library(OpenCV) and also provides a general background to the field of computer vision sufficient to use OpenCV in machine learning",
+		"link": "http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf"
+	},
+	{
+		"id": 22,
+		"title": "Your First Machine Learning Project in Python Step-By-Step",
+		"description": "Do you want to do machine learning using Python, but you’re having trouble getting started? In this post, you will complete your first machine learning project using Python.",
+		"link": "https://machinelearningmastery.com/machine-learning-in-python-step-by-step/"
+	},
+	{
+		"id": 23,
+		"title": "CS50's Introduction to Artificial Intelligence with Python",
+		"description": "This course will be your Introduction to Artificial Intelligence with Python by exploring the concepts and algorithms at the foundation of modern artificial intelligence,etc.",
+		"link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+	},
+	{
+		"id": 24,
+		"title": "Introduction to Computational Thinking and Data Science",
+		"description": "Some see programming as merely a practical discipline, but in reality, it demands the ability to reason about problems in a particular way.Massachusetts Institute of Technology will introduce you to the basic principles of computational thinking applied to data science. ",
+		"link": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4"
+	},
+	{
+		"id": 25,
+		"title": "Machine Learning By Edureka",
+		"description": "This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail",
+		"link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ&ab_channel=edureka%21"
 	}
 ]
