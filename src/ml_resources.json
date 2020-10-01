@@ -150,8 +150,44 @@
 	},
 	{
 		"id": 26,
-		"title": "eat_tensorflow2_in_30_days",
+		"title": "Eat Tensorflow 2 in 30 days",
 		"description": "Great book to learn tensorflow fast! Avaiable in English and Chinese",
 		"link": "https://github.com/lyhue1991/eat_tensorflow2_in_30_days"
+	},
+	{
+		"id": 27,
+		"title": "Scikit-Learn Course - Machine Learning in Python Tutorial(Free course on Youtube)",
+		"description": "Scikit-learn is a free software machine learning library for the Python programming language. Learn about machine learning using scikit-learn in this full course.",
+		"link": "https://www.youtube.com/watch?v=pqNCD_5r0IU"
+	},
+	{
+		"id": 28,
+		"title": "Reinforcement Learning Course - Full Machine Learning Tutorial(Free)",
+		"description": "Reinforcement learning is an area of machine learning that involves taking right action to maximize reward in a particular situation. In this full tutorial course, you will get a solid foundation in reinforcement learning core topics.",
+		"link": "https://www.youtube.com/watch?v=ELE2_Mftqoc"
+	},
+	{
+		"id": 29,
+		"title": "Machine Learning with Python by SimpliLearn (Free)",
+		"description": "This full course on Machine Learning with Python will be taught by Dr Abhinanda Sarkar. Dr Sarkar is the Academic Director at Great Learning for Data Science and Machine Learning Programs. He is ranked amongst the Top 3 Most Prominent Analytics & Data Science Academicians in India.",
+		"link": "https://www.youtube.com/watch?v=RnFGwxJwx-0"
+	},
+	{
+		"id": 30,
+		"title": "MIT 6.S191 Deep Learning YouTube playlist",
+		"description": "Course lectures for MIT introduction to Deep Learning",
+		"link": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI"
+	},
+	{
+		"id": 31,
+		"title": "Azure Machine Learning",
+		"description": "Enterprise-grade machine learning service to build and deploy models faster",
+		"link": "https://azure.microsoft.com/nb-no/services/machine-learning/"
+	},
+	{
+		"id": 32,
+		"title": "freeCodeCamp.org's Machine Learning playlist",
+		"description": "A great place to learn concepts of Machine Learning & Deep Learning like natural language processing, neural networks, reinforcement learning etc.",
+		"link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s"
 	}
 ]

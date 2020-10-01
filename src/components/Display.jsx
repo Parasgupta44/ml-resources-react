@@ -23,23 +23,15 @@ const Display = () => {
           (resource => resource.link.toLowerCase().includes(search.toLowerCase())||resource.description.toLowerCase().includes(search.toLowerCase())||resource.title.toLowerCase().includes(search.toLowerCase()))
           ).map((resource, index) => {
           return (
-            <div className="bxstyle" key={resource.id}>
+            <div className="bxstyle" key={resource.id} onClick={() => window.open(resource.link, "_blank")}>
               <dt>
                 <span className="title" role="img" aria-label={resource.title}>
                   {resource.title}
                 </span>
               </dt>
+              <hr />
               <dd>
                 <span className="describe">{resource.description}</span>
-                <br />
-                <a
-                  href={resource.link}
-                  className="anchor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Go to the resource-{">"}
-                </a>
               </dd>
             </div>
           );
