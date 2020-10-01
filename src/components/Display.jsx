@@ -20,7 +20,7 @@ const Display = () => {
       </div>
       <dl className="json">
         {resources.filter(
-          (resource => resource.link.includes(search)||resource.description.includes(search)||resource.title.includes(search))
+          (resource => resource.link.toLowerCase().includes(search.toLowerCase())||resource.description.toLowerCase().includes(search.toLowerCase())||resource.title.toLowerCase().includes(search.toLowerCase()))
           ).map((resource, index) => {
           return (
             <div className="bxstyle" key={resource.id} onClick={() => window.open(resource.link, "_blank")}>
