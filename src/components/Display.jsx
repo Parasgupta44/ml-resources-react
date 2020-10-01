@@ -84,6 +84,13 @@ const Display = () => {
                 <dd>
                   <span className="describe">{resource.description}</span>
                 </dd>
+                <hr />
+                <ul>
+                  <p> Tags: </p>
+                  {resource.tags.map(item =>
+                    <li>{item}</li>
+                  )}
+                </ul>
               </div>
             );
           })}
