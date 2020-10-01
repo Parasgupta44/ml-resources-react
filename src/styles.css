@@ -1,18 +1,29 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./fonts/Poppins-Bold.ttf) format('.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: local('Poppins'), url(./fonts/Poppins-Light.ttf) format('.ttf');
+}
+
 body {
   font-family: "Courier", sans-serif;
   font-weight: 400;
   line-height: 1.666;
   background: #ffefd5;
   color: #555;
+  background-image: url('https://blog.bq.com/wp-content/uploads/2018/05/machine-learning-bq-catedra-carlos-III.jpg');
 }
 
 h1 {
   font-weight: 700;
   font-size: 265%;
+  font-family: Poppins;
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
-  color: black;
+  color: white;
   line-height: 1.2;
 }
 
@@ -33,7 +44,7 @@ h1 span {
   max-width: 20rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 2.1px 0 rgba(0, 0, 0, 0.07), 0 6px 20px rgba(0, 0, 0, 0.1);
   background-color: #f2f2f2;
   transition: all 100ms ease-in-out;
@@ -44,7 +55,7 @@ h1 span {
 }
 
 dt {
-  color: rgb(237, 9, 123);
+  color:#021e43;
   line-height: 1;
 }
 
@@ -57,6 +68,7 @@ dt span {
   margin: 0 auto 20px;
   display: block;
   font-size: 200%;
+  font-family: Poppins;
 }
 
 .anchor {
@@ -64,15 +76,18 @@ dt span {
   color: darkcyan;
 }
 .anchor:hover {
-  color: rgb(237, 9, 123);
+  color:#021e43;
 }
 .describe {
   font-size: 110%;
+  font-family: Poppins;
 }
 
 dd {
   font-size: 90%;
   margin-left: 0;
+  font-family: Poppins;
+
 }
 
 dd dt {
