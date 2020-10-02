@@ -264,5 +264,12 @@
     "description": "Learn how to use Google's Deep Learning Framework - TensorFlow with Python! Solve problems with cutting edge techniques!",
     "tags": ["Google", "Python", "TensorFlow", "Udemy"],
     "link": "https://www.udemy.com/course/complete-guide-to-tensorflow-for-deep-learning-with-python/"
+  },
+  {
+    "id": 39,
+    "title": "Programação Dinâmica channel",
+    "description": "This channel is made by brazilian scients. They teach machine learning and all around it. It is in pt-BR.",
+    "tags": ["Python", "pt-BR", "Youtube", "Free"],
+    "link": "https://www.youtube.com/channel/UC70mr11REaCqgKke7DPJoLg"
   }
 ]
