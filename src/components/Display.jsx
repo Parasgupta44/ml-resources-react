@@ -60,7 +60,8 @@ const Display = () => {
               resource.description
                 .toLowerCase()
                 .includes(search.toLowerCase()) ||
-              resource.title.toLowerCase().includes(search.toLowerCase())
+              resource.title.toLowerCase().includes(search.toLowerCase()) ||
+              resource.tags.join(' ').toLowerCase().includes(search.toLowerCase())
           )
           .map((resource, index) => {
             return (
