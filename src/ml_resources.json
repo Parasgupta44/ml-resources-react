@@ -271,5 +271,19 @@
     "description": "This channel is made by brazilian scients. They teach machine learning and all around it. It is in pt-BR.",
     "tags": ["Python", "pt-BR", "Youtube", "Free"],
     "link": "https://www.youtube.com/channel/UC70mr11REaCqgKke7DPJoLg"
+  },
+  {
+    "id": 40,
+    "title": "Deeplearning.ai's deep learning specialization.",
+    "description": "This is a specialization from coursera containing the basics of neural networks, hyperparameter tuning and the concepts of more advanced neural networks such as CNNs and RNNs",
+    "tags": ["Python", "Tensorflow", "Coursera"],
+    "link": "https://www.coursera.org/specializations/deep-learning"
+  },
+  {
+    "id": 41,
+    "title": "Stanford NLP: cs224n",
+    "description": "This is a deep learning course specializing in NLP, taught by professors from Stanford University.",
+    "tags": ["Python", "Pytorch", "NLP", "Stanford"],
+    "link": "https://web.stanford.edu/class/cs224n/"
   }
 ]
