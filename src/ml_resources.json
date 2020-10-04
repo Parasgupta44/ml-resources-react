@@ -285,5 +285,26 @@
     "description": "This is a deep learning course specializing in NLP, taught by professors from Stanford University.",
     "tags": ["Python", "Pytorch", "NLP", "Stanford"],
     "link": "https://web.stanford.edu/class/cs224n/"
+  },
+  {
+    "id": 42,
+    "title": "Fast.AI",
+    "description": "Fast.AI is a deep learning course which targets developers in the industry to use ML models without deep knowledge of ML.",
+    "tags": ["Python", "Pytorch", "Deep Learning"],
+    "link": "https://www.fast.ai/"
+  },
+  {
+    "id": 43,
+    "title": "Andrew Ng: Machine Learning Yearning",
+    "description": "This book is a machine learning course by Andrew Ng which contains basics of planning and implementing machine learning models.",
+    "tags": ["Python"],
+    "link": "https://www.deeplearning.ai/machine-learning-yearning/"
+  },
+  {
+    "id": 44,
+    "title": "IBM Data Science",
+    "description": "Data Science course by IBM.",
+    "tags": ["Python", "SQL", "Data Science"],
+    "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
   }
 ]
