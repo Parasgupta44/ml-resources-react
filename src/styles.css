@@ -21,6 +21,29 @@ body {
   );
   color: #555;
 }
+/***** Scroll Bar ********/
+body::-webkit-scrollbar{
+  width: 0.7rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgb(95, 121, 249) 100.2%
+  );
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(7, 222, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
 
 h1 {
   font-weight: 700;
