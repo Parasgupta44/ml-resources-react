@@ -305,5 +305,12 @@
 		"description": "Data Science course by IBM.",
 		"tags": ["Python", "SQL", "Data Science"],
 		"link": "https://www.coursera.org/professional-certificates/ibm-data-science"
+	},
+	{
+		"id": 45,
+		"title": "Machine Learning TV",
+		"description": "This channel is all about machine learning (ML). It contains all the useful resources which help ML lovers and computer science students gain a better understanding of the concepts of this successful branch of Artificial Intelligence.",
+		"tags": ["Deep Learning", "Data Science"],
+		"link": "https://www.youtube.com/c/MachineLearningTV/videos"
 	}
 ]
