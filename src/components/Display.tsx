@@ -1,10 +1,9 @@
-import React from "react";
-import unshuffledResources from "../ml_resources.json";
-import { useState } from "react";
+import React, { useState } from "react";
 import MouseTooltip from "react-sticky-mouse-tooltip";
 import { ReactTinyLink } from "react-tiny-link";
+import unshuffledResources from "../ml_resources.json";
 
-function shuffle(ogArr) {
+function shuffle<T>(ogArr: Array<T>): Array<T> {
   // Do cloning to prevent mutation
   const arr = [...ogArr];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -18,23 +17,23 @@ function shuffle(ogArr) {
 
 const resources = shuffle(unshuffledResources);
 
-const Display = () => {
+const Display: React.FC = () => {
   const [search, setSearch] = useState("");
   const [url, setUrl] = useState("");
-  var hover_preview = "";
-  if (url !== "") {
-    console.log(url);
-    hover_preview = (
-      <ReactTinyLink
-        cardSize="small"
-        showGraphic={true}
-        maxLine={2}
-        minLine={1}
-        url={url}
-        onError={(e) => console.log(e)}
-      />
-    );
-  }
+
+  console.log(url);
+
+  const hoverPreview = url ? (
+    <ReactTinyLink
+      cardSize="small"
+      showGraphic={true}
+      maxLine={2}
+      minLine={1}
+      url={url}
+      onError={(e: Error) => console.log(e)}
+    />
+  ) : null;
+
   return (
     <div>
       <div className="json head-title">
@@ -48,7 +47,9 @@ const Display = () => {
             type="text"
             placeholder="Search..."
             value={search}
-            onChange={(event, value) => setSearch(event.target.value)}
+            onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+              setSearch(event.target.value)
+            }
           />
         </div>
       </div>
@@ -61,9 +62,12 @@ const Display = () => {
                 .toLowerCase()
                 .includes(search.toLowerCase()) ||
               resource.title.toLowerCase().includes(search.toLowerCase()) ||
-              resource.tags.join(' ').toLowerCase().includes(search.toLowerCase())
+              resource.tags
+                .join(" ")
+                .toLowerCase()
+                .includes(search.toLowerCase())
           )
-          .map((resource, index) => {
+          .map((resource) => {
             return (
               <div
                 className="bxstyle"
@@ -88,16 +92,16 @@ const Display = () => {
                 <hr />
                 <ul>
                   <p> Tags: </p>
-                  {resource.tags.map(item =>
+                  {resource.tags.map((item) => (
                     <li>{item}</li>
-                  )}
+                  ))}
                 </ul>
               </div>
             );
           })}
       </dl>
       <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
-        {hover_preview}
+        {hoverPreview}
       </MouseTooltip>
     </div>
   );

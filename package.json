@@ -12,6 +12,7 @@
     "react-tiny-link": "^3.6.0"
   },
   "devDependencies": {
+    "@types/react": "^16.9.52",
     "typescript": "3.8.3"
   },
   "scripts": {
