@@ -1,10 +1,12 @@
+@import "./colors.css";
+
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins"), url(./fonts/Poppins-Bold.ttf) format(".ttf");
+  src: local("Poppins"), url(../fonts/Poppins-Bold.ttf) format(".ttf");
 }
 @font-face {
   font-family: "Poppins-Light";
-  src: local("Poppins"), url(./fonts/Poppins-Light.ttf) format(".ttf");
+  src: local("Poppins"), url(../fonts/Poppins-Light.ttf) format(".ttf");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -19,9 +21,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: #ffefd5;
-  color: #555;
+  color: var(--dark-gray);
   max-width: 90%;
   margin: 0 auto;
-  background-color: #766edf;
+  background-color: var(--main-bg-color);
 }
