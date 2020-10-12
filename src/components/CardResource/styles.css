@@ -1,0 +1,68 @@
+.card-resource-container {
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0.6em;
+  width: 25vw;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-resource-container {
+    width: 70vw;
+    margin: 2rem auto;
+  }
+}
+
+.card-resource-container:hover {
+  transform: scale(1.1);
+  transition: 0.2s all ease-in-out;
+}
+
+.card-resource-container h3 {
+  color: #2a265f;
+}
+
+.resource-info {
+  padding: 1.2em;
+}
+
+.tag-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2a265f;
+  border-radius: 0 0 0.5em 0.5em;
+  padding: 0.2em 1.2em;
+  width: 100%;
+  min-height: 5em;
+}
+
+.tag-list {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tag-list > li {
+  margin-right: 0.5em;
+  font-size: 0.6rem;
+  border: solid 1px grey;
+  border-radius: 0.5rem;
+}
+
+.tag-section > p {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.2em;
+}
+
+.tag-section .tag-list {
+  display: flex;
+  list-style: none;
+}

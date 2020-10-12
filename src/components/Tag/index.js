@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./styles.css";
 
 export function Tag({ children }) {
   return <li className="tag">{children}</li>;
