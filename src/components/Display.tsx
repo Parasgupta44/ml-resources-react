@@ -21,7 +21,7 @@ const Display: React.FC = () => {
   const [search, setSearch] = useState("");
   const [url, setUrl] = useState("");
 
-  console.log(url);
+  // console.log(url);
 
   const hoverPreview = url ? (
     <ReactTinyLink
@@ -92,7 +92,7 @@ const Display: React.FC = () => {
                 <hr />
                 <ul>
                   <p> Tags: </p>
-                  {resource.tags.map((item,key) => (
+                  {resource.tags.map((item, key) => (
                     <li key={key}>{item}</li>
                   ))}
                 </ul>
@@ -100,9 +100,15 @@ const Display: React.FC = () => {
             );
           })}
       </dl>
-      <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
-        {hoverPreview}
-      </MouseTooltip>
+      {url.length > 0 ? (
+        <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
+          {hoverPreview}
+        </MouseTooltip>
+      ) : (
+        <MouseTooltip visible={false} offsetX={15} offsetY={10}>
+          <></>
+        </MouseTooltip>
+      )}
     </div>
   );
 };

@@ -1,16 +1,18 @@
 import React from "react";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <div className="footer">
-      ML Resources&#169;{new Date().getFullYear()}. You can use it freely,
-      respecting the terms included in the &nbsp;
+      ML Resources &#169;{new Date().getFullYear()}, License: &nbsp;
       <a
         href="https://github.com/Parasgupta44/ml-resources-react/blob/master/LICENSE.txt"
         target="blank"
+        rel="noreferrer"
       >
-        license file
+        MIT
       </a>
     </div>
   );
-}
+};
+
+export default Footer;

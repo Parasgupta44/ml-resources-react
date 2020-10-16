@@ -244,11 +244,12 @@ ul li {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 13.5px;
   text-align: center;
-  color: rgb(102, 101, 101);
-  background-color: #f9cb17;
+  color: wheat;
+  background-color: #2f4f4f;
   padding: 10px;
 }
 
 .footer > a {
-  color: #ffffff;
+  color: wheat;
+  text-decoration: none;
 }
