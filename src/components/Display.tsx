@@ -92,8 +92,8 @@ const Display: React.FC = () => {
                 <hr />
                 <ul>
                   <p> Tags: </p>
-                  {resource.tags.map((item) => (
-                    <li>{item}</li>
+                  {resource.tags.map((item,key) => (
+                    <li key={key}>{item}</li>
                   ))}
                 </ul>
               </div>
