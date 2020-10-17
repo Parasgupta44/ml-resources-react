@@ -22,7 +22,28 @@ body {
   font-weight: 400;
   line-height: 1.666;
   color: var(--dark-gray);
-  max-width: 90%;
   margin: 0 auto;
   background-color: var(--main-bg-color);
+}
+body::-webkit-scrollbar {
+  width: 0.7rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    var(--gradient-first-color) 0%,
+    var(--gradient-second-color) 100.2%
+  );
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
 }

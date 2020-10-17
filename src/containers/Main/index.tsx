@@ -7,7 +7,7 @@ import { Header } from "../../components/Header";
 import { CardResource } from "../../components/CardResource";
 import "./styles.css";
 
-function shuffle(ogArr) {
+function shuffle<T>(ogArr: Array<T>): Array<T> {
   // Do cloning to prevent mutation
   const arr = [...ogArr];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -38,24 +38,19 @@ const Main = () => {
     );
   }
 
-  let hover_preview = "";
-
-  if (url !== "") {
-    console.log(url);
-    hover_preview = (
-      <ReactTinyLink
-        cardSize="small"
-        showGraphic={true}
-        maxLine={2}
-        minLine={1}
-        url={url}
-        onError={(e) => console.log(e)}
-      />
-    );
-  }
+  const hoverPreview = url ? (
+    <ReactTinyLink
+      cardSize="small"
+      showGraphic={true}
+      maxLine={2}
+      minLine={1}
+      url={url}
+      onError={(e: Error) => console.log(e)}
+    />
+  ) : null;
 
   const resourceCards = getResources().map((res) => {
-    return <CardResource key={res.id} resource={res} setUrl={setUrl} />;
+    return <CardResource key={res.id} resource={{...res, id: res.id.toString()}} setUrl={setUrl} />;
   });
 
   return (
@@ -63,7 +58,7 @@ const Main = () => {
       <Header searchValue={search} setSearch={setSearch} />
       <div className="resources-container">{resourceCards}</div>
       <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
-        {hover_preview}
+        {hoverPreview}
       </MouseTooltip>
     </div>
   );

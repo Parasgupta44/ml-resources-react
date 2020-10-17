@@ -1,7 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-export function Header({ searchValue, setSearch }) {
+type Props = {
+  searchValue: string;
+  setSearch: React.Dispatch<React.SetStateAction<string>>;
+}
+
+export function Header({ searchValue, setSearch }: Props) {
   return (
     <header>
       <h1>ML Resources</h1>

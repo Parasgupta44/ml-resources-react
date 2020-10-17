@@ -1,8 +1,14 @@
 import React from "react";
+import { Resource } from "../../types";
 import { Tag } from "../Tag";
 import "./styles.css";
 
-export function CardResource({ resource, setUrl }) {
+type Props = {
+  resource: Resource;
+  setUrl: React.Dispatch<React.SetStateAction<string>>;
+}
+
+export function CardResource({ resource, setUrl }: Props) {
   return (
     <div
       className="card-resource-container"
