@@ -6,7 +6,7 @@ import "./styles.css";
 type Props = {
   resource: Resource;
   setUrl: React.Dispatch<React.SetStateAction<string>>;
-}
+};
 
 export function CardResource({ resource, setUrl }: Props) {
   return (
@@ -23,8 +23,8 @@ export function CardResource({ resource, setUrl }: Props) {
       <div className="tag-section">
         <p>Tags:</p>
         <ul className="tag-list">
-          {resource.tags.map((item) => (
-            <Tag>{item}</Tag>
+          {resource.tags.map((item, idx) => (
+            <Tag key={idx}>{item}</Tag>
           ))}
         </ul>
       </div>

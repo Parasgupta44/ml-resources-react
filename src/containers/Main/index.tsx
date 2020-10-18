@@ -50,16 +50,32 @@ const Main = () => {
   ) : null;
 
   const resourceCards = getResources().map((res) => {
-    return <CardResource key={res.id} resource={{...res, id: res.id.toString()}} setUrl={setUrl} />;
+    return (
+      <CardResource
+        key={res.id}
+        resource={{ ...res, id: res.id.toString() }}
+        setUrl={setUrl}
+      />
+    );
   });
 
   return (
     <div>
       <Header searchValue={search} setSearch={setSearch} />
       <div className="resources-container">{resourceCards}</div>
-      <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
-        {hoverPreview}
-      </MouseTooltip>
+      {url.length > 0 ? (
+        <MouseTooltip
+          visible={url !== "" || url !== undefined}
+          offsetX={15}
+          offsetY={10}
+        >
+          {hoverPreview}
+        </MouseTooltip>
+      ) : (
+        <MouseTooltip visible={false} offsetX={15} offsetY={10}>
+          <></>
+        </MouseTooltip>
+      )}
     </div>
   );
 };
