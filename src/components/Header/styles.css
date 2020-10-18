@@ -1,255 +1,49 @@
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins"), url(./fonts/Poppins-Bold.ttf) format(".ttf");
-}
-@font-face {
-  font-family: "Poppins-Light";
-  src: local("Poppins"), url(./fonts/Poppins-Light.ttf) format(".ttf");
-}
+@import "../../styles/colors.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  line-height: 1.666;
-  background: #ffefd5;
-  color: #555;
-  background-image: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    rgba(85, 88, 218, 1) 0%,
-    rgba(95, 209, 249, 1) 100.2%
-  );
-  color: #555;
-}
-/***** Scroll Bar ********/
-body::-webkit-scrollbar {
-  width: 0.7rem;
-  height: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-  background-image: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    rgba(85, 88, 218, 1) 0%,
-    rgb(95, 121, 249) 100.2%
-  );
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(7, 222, 255);
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 265%;
-  font-family: Poppins;
-  text-align: center;
-  justify-content: center;
-  margin: 0;
-  color: white;
-  line-height: 1.2;
-}
-
-h1 span {
-  padding: 5px 15px;
-}
-
-.json {
+header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 4rem auto;
+  align-items: center;
   max-width: 90%;
+  margin: 0 auto;
 }
 
-.json > .bxstyle {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  text-align: center;
-  width: 20vw;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 2.1px 0 rgba(0, 0, 0, 0.07), 0 6px 20px rgba(0, 0, 0, 0.1);
-  background-color: #f2f2f2;
-  transition: all 100ms ease-in-out;
-}
-
-.json > .bxstyle:hover {
-  transform: scale(1.1);
-  transition: 0.2s all ease-in-out;
-}
-
-.json > .bxstyle > dt {
-  margin-bottom: 1rem;
-}
-
-dt {
-  color: #021e43;
-  line-height: 1;
-}
-
-dt span {
-  font-size: 200%;
-  font-weight: 800;
-}
-
-.title {
-  margin: 0 auto 20px;
-  display: block;
-  font-size: 150%;
-  font-family: Poppins;
-}
-
-.anchor {
-  text-decoration: none;
-  color: darkcyan;
-}
-.anchor:hover {
-  color: #021e43;
-}
-.describe {
-  font-size: 100%;
-  font-family: Poppins;
-}
-
-hr {
-  width: 100%;
-}
-
-dd {
-  font-size: 90%;
-  margin-left: 0;
-  font-family: Poppins;
-}
-
-dd dt {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
-  font-weight: 600;
-  font-size: inherit;
-}
-
-dd dl {
-  font-size: 90%;
-  margin: 1rem auto 0 auto;
-  letter-spacing: 0.33px;
-  max-width: 15rem;
-}
-
-dd dl .bxstyle {
-  margin-bottom: 1.1rem;
-}
-
-ul {
-  align-self: flex-start;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  list-style: none;
-}
-
-ul li,
-ul p {
-  font-size: 80%;
-  margin: 0.2rem;
-  padding: 0.1rem;
-}
-
-ul li {
-  font-size: 65%;
-  border: solid 1px grey;
-  border-radius: 0.5rem;
-}
-
-.head-title {
-  margin: 4rem 4rem 6rem 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.search {
-  display: inline-flex;
-  text-align: center;
-}
-.search input {
+header input {
   font-size: 0.9em;
   font-weight: 300;
   padding: 0 2em;
   height: 50px;
   font-family: "Poppins";
-  color: #555;
+  color: var(--dark-gray);
   border: none;
   border-radius: 50px;
-  background: #fff
+  background: var(--white)
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGyGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMTEtMTNUMTA6MjU6NTIrMDc6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTAzLTE2VDExOjU1OjE1KzA3OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIwLTAzLTE2VDExOjU1OjE1KzA3OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMSIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9IkRvdCBHYWluIDIwJSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3MGZhNTdkNC0wMDhlLTQwM2UtOTVlYy02MzExYzQxMGJjMzYiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo1ZDVmNmI1Zi0xMjIyLTBmNGItYmVlMS1iZWJiZGYxYzBiYzEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiNDk0OWY5Ny1lMGZjLTQwMGUtYjFkZC0wZDM3MmE5M2U5YzUiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmI0OTQ5Zjk3LWUwZmMtNDAwZS1iMWRkLTBkMzcyYTkzZTljNSIgc3RFdnQ6d2hlbj0iMjAxOS0xMS0xM1QxMDoyNTo1MiswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmEyYmI5ODZjLTc2ZTQtNGUwYS1iMjUyLTA0MDdjZGVjODg1YiIgc3RFdnQ6d2hlbj0iMjAxOS0xMi0yM1QxMDoyNzoyMSswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjcwZmE1N2Q0LTAwOGUtNDAzZS05NWVjLTYzMTFjNDEwYmMzNiIgc3RFdnQ6d2hlbj0iMjAyMC0wMy0xNlQxMTo1NToxNSswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pl985PQAAAMnSURBVGiB7ZjPSxRhGMc/rgmZrqGlQrtJ6sG9WhYURIfsYnrRQ2WHTklqoRW42Vm6RRn4B4TlyT8gqIOBPwhDg8KMzA4lQpsG2656cLXLO8PMNjvzzsw7SbDPHPZh9/n+mNnd933epwDnqOc0TTQQ5TAlQIp1vrPIHNMsSeB9RDW3mWTX5priDtXBiEcZJm0rrl1phjmqWn6QTQupbZIk2bb4ZIv73oQKLN6L8ZRTpndeM8k8y/wgCZRRRS2NnOWcqWqWa3z0ZsMYHaY7XCJOXc7aWuJ8Nj2hDr/yPQa6BL1SmF4SBlSPH/luA9Eo5dK4ckZVWGgzkMjduzF6Deg2L/I1BoJWLwRcNDDUuIcv6OAWT/IALTrHgltoXId2e5YHuKHzxN3AynXYuC95gHGdS/5HzIi+qBb5NlCkL+AjspAy3fN13/IAXYJth7AcoF8AVpXIA6wKxj658neifECZgQHBOC9THNW/gEplBip1zqhTaYhmkU2TUGYgwYzIzjsbaBLZK2XyAC/F60lnAzGRzSk1oLHFbKuAEBGRLSs1oLFFbKuAEBUAZBT+AgASZACocFraQhwAYJO0UgNpNgEoZr+TgWDDqufMMrABQDElSoVLKAZgQzwJGwPrABQqXIYAKikE4BfbTgZWRJa79/USGtuKbRUQYlFkx5Ua0NgcO6MQb0XWbFvnNi6I11nn0mA3I8eFCILcjiWX977AGpJbcuVl7AhAlxJ5rSXLUCoL0ZrSlNKm9Ik8KJi2/KAb2IAOU3UwuesWqvZo9t492P/htFXHf+WIFwLj8fyma7TxeP7AizyYBxTPRK8kE+YBxS6/6fRqwTii+Sn5HMwjGu3ybKE9a0h1z2ajrssaUq3xUIWFGG+y7maCITpoJEKYMBEaaWeIiayqGY4Bl1VYyDWozJAkScbik7RhK+tUYyHCY1IWUn9fKR5l/e0UWYAqx2H1JP1UWSCvyFpwbJuBes5wggaiHKIUSLPGNz4xxxRfcqI6ea7nVxmT0JGIfYQJS++Y0k8huMhbyFvIW8hbyFv4DywM7rWFF3tjQLMwhhgl/fv4wBZJLsEfp/RPM3cJtIoAAAAASUVORK5CYII=)
     no-repeat right 1rem center/12px 12px !important;
 }
 
-.search input:focus {
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 265%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+header input:focus {
   border: none;
   outline: none;
 }
 
 @media only screen and (max-width: 768px) {
-  .json > .bxstyle {
-    width: 40vw;
-  }
-  .json {
+  header {
     flex-direction: column;
-    align-items: center;
-  }
-  .head-title {
-    justify-content: center;
   }
 
-  .search {
-    width: 100%;
-    margin-top: 3rem;
+  header h1 {
+    margin: 2.5rem 0 1.5rem 0;
   }
-
-  .search input {
-    width: 100%;
-  }
-  .footer {
-    font-size: 10px;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .json > .bxstyle {
-    width: 70vw;
-  }
-}
-
-/* Footer Styling */
-.footer {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 13.5px;
-  text-align: center;
-  color: wheat;
-  background-color: #2f4f4f;
-  padding: 10px;
-}
-
-.footer > a {
-  color: wheat;
-  text-decoration: none;
 }

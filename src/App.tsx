@@ -1,13 +1,13 @@
 import React from "react";
-import Display from "./components/Display";
 import Footer from "./components/Footer";
-import "./styles.css";
+import Main from "./containers/Main";
+import "./styles/global.css";
 
 const App = () => {
   return (
     <div className="App">
-      <Display />
-      <Footer/>
+      <Main />
+      <Footer />
     </div>
   );
 };
