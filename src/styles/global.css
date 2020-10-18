@@ -17,6 +17,12 @@
   padding: 0;
 }
 
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

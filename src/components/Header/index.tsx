@@ -4,9 +4,9 @@ import "./styles.css";
 type Props = {
   searchValue: string;
   setSearch: React.Dispatch<React.SetStateAction<string>>;
-}
+};
 
-export function Header({ searchValue, setSearch }: Props) {
+export const Header = ({ searchValue, setSearch }: Props) => {
   return (
     <header>
       <h1>ML Resources</h1>
@@ -18,4 +18,4 @@ export function Header({ searchValue, setSearch }: Props) {
       />
     </header>
   );
-}
+};

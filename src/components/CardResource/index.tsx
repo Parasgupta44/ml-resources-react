@@ -8,7 +8,7 @@ type Props = {
   setUrl: React.Dispatch<React.SetStateAction<string>>;
 };
 
-export function CardResource({ resource, setUrl }: Props) {
+export const CardResource = ({ resource, setUrl }: Props) => {
   return (
     <div
       className="card-resource-container"
@@ -30,4 +30,4 @@ export function CardResource({ resource, setUrl }: Props) {
       </div>
     </div>
   );
-}
+};
