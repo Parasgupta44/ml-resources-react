@@ -312,5 +312,12 @@
 		"description": "This channel is all about machine learning (ML). It contains all the useful resources which help ML lovers and computer science students gain a better understanding of the concepts of this successful branch of Artificial Intelligence.",
 		"tags": ["Deep Learning", "Data Science"],
 		"link": "https://www.youtube.com/c/MachineLearningTV/videos"
+	},
+	{
+	"id": 46,
+		"title": "IBM Watson Starter Kits (Labs)",
+		"description": "IBM offers a wealth of resources for developers who want to get started with Watson , its ubiquitous cognitive computing tool/AI platform for the enterprise (including a free IBM cloud account to go along with it). It also offers various Starter Kits that take you step-by-step through different scenarios that, show you a bit of what Watson can offer enterprises and how it accomplishes them.",
+		"tags": ["AI", "Data Science"],
+		"link": "https://cloud.ibm.com/developer/watson/starter-kits"
 	}
 ]
