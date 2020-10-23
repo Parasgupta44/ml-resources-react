@@ -30,7 +30,7 @@
 		"id": 5,
 		"title": "Instill-AI's ML Course",
 		"description": "A github repo with ML explanation with code examples",
-		"tags": [],
+		"tags": ["github","free"],
 		"link": "https://github.com/instillai/machine-learning-course"
 	},
 	{
@@ -65,14 +65,14 @@
 		"id": 10,
 		"title": "Machine Learning Tutorial for Beginners",
 		"description": "From Kaggler Kaan Can this tutorial is straight to the point, and gets right into implementing machine learning algorithms with Python libraries.",
-		"tags": [],
+		"tags": ["kaggle","beginners"],
 		"link": "https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners"
 	},
 	{
 		"id": 11,
 		"title": "The Data School Blog ",
-		"description": "Data science for beginners!",
-		"tags": ["Blog"],
+		"description": "Data science for beginners. For those who love to read and do things!",
+		"tags": ["Blog","Free"],
 		"link": "http://www.dataschool.io/"
 	},
 	{
@@ -107,14 +107,14 @@
 		"id": 16,
 		"title": "Machine Learning Playlist by mathematicalmonk",
 		"description": "The video series provides a great insight into Machine Learning with in-depth videos covering most of the ML algorithms",
-		"tags": [],
+		"tags": ["youtube","free"],
 		"link": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA"
 	},
 	{
 		"id": 17,
 		"title": "Reinforcement Learning course by David Silver",
 		"description": "Hands on video lectures on Reinforcement Learning by David Silver",
-		"tags": [],
+		"tags": ["video","free"],
 		"link": "https://www.davidsilver.uk/teaching/"
 	},
 	{
@@ -302,8 +302,8 @@
 	{
 		"id": 44,
 		"title": "IBM Data Science",
-		"description": "Data Science course by IBM.",
-		"tags": ["Python", "SQL", "Data Science"],
+		"description": "Data Science course by IBM on Coursera. Specialisation.",
+		"tags": ["Python", "SQL", "Data Science","Coursera"],
 		"link": "https://www.coursera.org/professional-certificates/ibm-data-science"
 	},
 	{
@@ -316,7 +316,7 @@
 	{
 	"id": 46,
 		"title": "IBM Watson Starter Kits (Labs)",
-		"description": "IBM offers a wealth of resources for developers who want to get started with Watson , its ubiquitous cognitive computing tool/AI platform for the enterprise (including a free IBM cloud account to go along with it). It also offers various Starter Kits that take you step-by-step through different scenarios that, show you a bit of what Watson can offer enterprises and how it accomplishes them.",
+		"description": "IBM offers a wealth of resources for developers who want to get started with Watson , its ubiquitous cognitive computing tool/AI platform for the enterprise (including a free IBM cloud account to go along with it).",
 		"tags": ["AI", "Data Science"],
 		"link": "https://cloud.ibm.com/developer/watson/starter-kits"
 	}
